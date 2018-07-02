@@ -1,0 +1,7 @@
+[2018-06-29 16:45:14,886] [DEBUG] Starting new HTTPS connection (1): puhui-env.yingu.com
+[2018-06-29 16:45:15,232] [DEBUG] https://puhui-env.yingu.com:443 "POST /mis/api/misReceiveCustomer/encodeParams HTTP/1.1" 200 303
+[2018-06-29 16:45:15,235] [DEBUG] Starting new HTTPS connection (1): puhui-env.yingu.com
+[2018-06-29 16:45:15,330] [DEBUG] https://puhui-env.yingu.com:443 "POST /gle/api/manager/login HTTP/1.1" 200 401
+[2018-06-29 16:45:23,337] [DEBUG] Starting new HTTPS connection (1): puhui-env.yingu.com
+[2018-06-29 16:45:23,393] [DEBUG] https://puhui-env.yingu.com:443 "POST /mis/api/misReceiveCustomer/decodeParams HTTP/1.1" 200 294
+[2018-06-29 16:45:23,396] [INFO] 1 登录 成功, 200, {'rspCode': 200, 'rspMsg': '成功', 'data': {'needAuthentication': False, 'token': 'ARpB1hcaYyTYdB2jDJvzdt5FCFrOlskjGzky-yUJFTYbOGPLcnIOEKapXvn-INmHJAhnkMkm7HgppfKXRIKl-EWwTFDxAymsBrKx4r8wR8oAe31EU19uZ65RNE8dvf4rYUR4WVsYGb2RTpHvLovYUFAhj50GzQvKYwiL0JkT_CyD81K2i0AE9BQG5WLF926sMaY'}, 'showMsg': '成功'}
