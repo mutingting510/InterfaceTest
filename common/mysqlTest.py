@@ -1,6 +1,5 @@
 #!/usr/bin/env Python
 # coding=utf-8
-#谷粒儿mysql测试
 
 import pymysql
 import xlrd
@@ -14,7 +13,7 @@ class CheckMysql:
         self.db = db
         # self.tableName = tableName
 
-    # 渠道客户表
+
     def select_mis_receive_customer(self):
         db = pymysql.connect(host=str(self.host), user=str(self.user), passwd=str(self.passwd), db=str(self.db), charset="utf8")
         cur = db.cursor()
